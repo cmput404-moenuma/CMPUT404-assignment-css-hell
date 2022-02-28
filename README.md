@@ -12,6 +12,13 @@ Read this comic http://theoatmeal.com/comics/design_hell
 
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
+
+Changes I made for the project gutenberg HTML files
+=================
+- I added a tag to the cover, title so that it would be more oraganized
+- I changed the directory path to the images
+
+
 License/Copyright
 =================
 
@@ -19,6 +26,4 @@ Textual content is copyright Abram Hindle (C) 2013 under the CC-BY-SA
 4.0 unported license. Attribution should be a hyperlink to the
 repository and (C) 2013 Abram Hindle visibile in the text.
 
-Code is licensed under the Apache 2.0 license.
-
-
+Code is licensed under the Apache 2.0 license. Copyright 2022 Moe Numasawa

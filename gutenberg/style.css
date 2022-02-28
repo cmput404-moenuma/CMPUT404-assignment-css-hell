@@ -1,0 +1,77 @@
+body {
+    background-image: url("../gutenberg/images/old_paper.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    font-family: Garamond, serif;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+h1 {
+    text-shadow: 2px 2px grey;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+a {
+    text-align: center;
+}
+
+.chapter {
+    background-color: white;
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0.3px;
+    padding-bottom: 70px;
+    opacity: 80%;
+}
+
+.chapter h2 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.chapter h3 {
+    font-size: 30px;
+}
+
+.chapter p {
+    line-height: 1.6;
+    padding-bottom: 15px;
+}
+
+.title_cover_pre {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+}
+
+.title_cover {
+    width: 60%;
+    height: auto;
+}
+
+.pre {
+    width: 40%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.title_cover h2 {
+    margin-top: 0;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.poem {
+    border-left: 2px solid grey;
+    padding-left: 20px;
+}

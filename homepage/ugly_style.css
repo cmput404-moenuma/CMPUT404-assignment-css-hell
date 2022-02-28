@@ -1,0 +1,109 @@
+body  {
+    display: block;
+    margin-right: 0;
+    margin-left: auto;
+    font-family: Papyrus;
+    background-color: #F335F6;
+}
+
+.sidenav {
+    height: 100%;
+    width: 300px;
+    background-color: aqua;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 80px;
+  }
+
+.sidenav .menu a {
+    padding: 10px 30px 30px 40px;
+    text-decoration: none;
+    font-size: 80px;
+    font-weight: 600;
+    color: black;
+    display: block;
+}
+
+.sidenav .menu a:hover {
+    background-color: aliceblue;
+}
+
+.sidenav .contactMe {
+    /* margin-top: 250px; */
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 40px;
+    position: absolute;
+    bottom: 120px;
+}
+
+.sidenav .contactMe img {
+    width: 32px;
+    height: 32px;
+    display: block;
+    padding-left: 25px;
+}
+
+#home, #aboutMe, #myHistory, #skillset {
+    margin-left: 350px;
+}
+
+h1 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+h2 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 60px;
+    color: red;
+}
+
+.myStatus {
+    font-family: "Brush Script MT", cursive;
+    font-size: 30px;
+    -webkit-transform: rotate(-90deg);
+}
+
+.myStatus p {
+    background-color: blueviolet;
+    display: inline-block;
+}
+
+#myHistory .events li {
+    font-size: 25px;
+}
+
+#myHistory .description li {
+    font-size: 20px;
+}
+
+#myHistory .events li:hover {
+    text-decoration: underline;
+    background-color: #F6EF35;
+}
+
+#aboutMe .description {
+    color: #F69234;
+    padding: 10px;
+    background-color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 20px;
+    border: 1rem solid black;
+}
+
+#aboutMe .content img {
+    width: 900px;
+    height: 100px;
+}
+
+#skillset {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 20px;
+}
+
+.badge {
+    border: 1px solid black;
+    background-color: #34F648;
+}
