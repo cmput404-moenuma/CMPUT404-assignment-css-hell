@@ -60,8 +60,11 @@ p {
 
 #home {
     margin-left: 160px;
-    padding-top: 280px;
+    scroll-snap-align: start;
+    padding-top: 250px;
     padding-left: 50px;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
 }
 
 #home h1 {
@@ -119,7 +122,9 @@ p {
 #aboutMe, #myHistory, #skillset {
     margin-left: 16.66%;
     margin-right: 16.66%;
-    margin-top: 30px;
+    padding-top: 100px;
+    scroll-snap-type: y;
+    height: 100vh;
 }
 
 #aboutMe .content {
@@ -214,6 +219,6 @@ p {
     background-color: #6852EE;
 }
 
-#skillset {
+/* #skillset {
     margin-bottom: 350px;
-}
+} */
